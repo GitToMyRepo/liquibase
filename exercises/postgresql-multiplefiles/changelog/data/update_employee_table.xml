@@ -1,0 +1,15 @@
+<!-- changelog/tables/update_example_table.xml -->
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+		
+    <changeSet id="updateEmployeeTable" author="yourName">
+        <!-- Update records in "employee" -->
+        <update tableName="employee">
+            <column name="age" valueNumeric="30" />
+        </update>
+    </changeSet>
+	
+</databaseChangeLog>

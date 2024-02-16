@@ -10,5 +10,8 @@
 
     <!-- Include the data insertion changelog -->
     <include file="changelog/data/insert_data.xml" relativeToChangelogFile="false"/>
+	
+	<!-- Update the data in employee changelog -->
+    <include file="changelog/data/update_employee_table.xml" relativeToChangelogFile="false"/>
 
 </databaseChangeLog>
