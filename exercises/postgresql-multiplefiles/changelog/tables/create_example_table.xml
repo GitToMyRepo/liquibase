@@ -15,4 +15,11 @@
             <column name="email" type="VARCHAR(255)"/>
         </createTable>
     </changeSet>
+	
+	<!-- Add the new changeset for adding the "age" column -->
+    <changeSet id="addAgeColumn" author="mywork">
+        <addColumn tableName="employee">
+            <column name="age" type="int"/>
+        </addColumn>
+    </changeSet>
 </databaseChangeLog>
