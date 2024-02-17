@@ -6,12 +6,12 @@
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
 
     <!-- Include the table creation changelog -->
-    <include file="changelog/tables/create_example_table.xml" relativeToChangelogFile="false"/>
+    <include file="changelog/tables/create_employee_table.xml" relativeToChangelogFile="false"/>
 
     <!-- Include the data insertion changelog -->
     <include file="changelog/data/insert_data.xml" relativeToChangelogFile="false"/>
 	
-	<!-- Update the data in employee changelog -->
+	<!-- Include update employee changelog -->
     <include file="changelog/data/update_employee_table.xml" relativeToChangelogFile="false"/>
 
 </databaseChangeLog>
